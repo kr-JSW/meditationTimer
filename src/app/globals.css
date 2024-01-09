@@ -1,27 +1,52 @@
+@import url(https://db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+@font-face {
+  font-family: "안쌍체";
+  src: url("/font/안쌍체.ttf")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "clockicons";
+  src: url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.eot");
+  src: url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.svg#clockicons")format("svg");
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
+
+/* .gaugeInput{
+width: 500px;
+-webkit-appearance: none;
+margin-top: 10px;
+background: #1f1f1f;
+border-radius: 10px;
+outline: none;
+
+}  */
+
+/* .gaugeInput::-webkit-slider-thumb{
+ border-radius: 50%;
+  cursor: pointer;
+ -webkit-appearance: none;
+  background-color: transparent;
+} */
+
+
+
