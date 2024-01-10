@@ -34,7 +34,7 @@ const Page = () => {
         if (soundSwitch) {
             const intervalId = setInterval(() => {
                 waterAudio.play();
-            }, 1000);
+            }, 1);
 
             return () => {
                 clearInterval(intervalId);

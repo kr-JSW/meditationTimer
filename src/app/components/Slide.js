@@ -14,7 +14,7 @@ const Slide = ({ arr }) => {
                 className={`md:text-[50px] text-[100px] cursor-pointer ${
                     count === 1 && 'text-gray-500 pointer-events-none'
                 } z-[10]
-                ${mode ? '' : 'text-purple-500'}
+                ${mode ? '' : count === arrCount ? 'text-gray-500' : 'text-black'}
                 `}
                 onClick={() => setCount(count - 1)}
             />
@@ -51,7 +51,7 @@ const Slide = ({ arr }) => {
             <icons.right
                 className={`md:text-[50px] text-[100px]  cursor-pointer ${
                     count === arrCount && 'text-gray-500 pointer-events-none'
-                } z-[10]   ${mode ? '' : 'text-purple-500'}`}
+                } z-[10]   ${mode ? '' : count === arrCount ? 'text-gray-500' : 'text-black'}`}
                 onClick={() => setCount(count + 1)}
             />
         </div>
