@@ -5,7 +5,7 @@
 </div>
 
 ### 온라인 명상 타이머
-[DEMO](https://serenitytimer.vercel.app/)
+[LIVE DEMO](https://serenitytimer.vercel.app/)
 ---
 ## 프로젝트 소개
 
@@ -23,12 +23,41 @@ pc와 mobile환경에서 간단하게 사용 할 수 있는, 온라인 명상 �
 
 이런 불편함을 조금이나마 해결하기 위해 초시계 소리 기능을 추가하여 제작하게 되었습니다.
 
-<br/><br/><br/>
+<br/><br/>
 
 ## 세부기능
 
 - 30초 단위로 시간 설정이 가능합니다.(최대 2시간)
 - 1초 간격으로 초시계 소리가 나옵니다.(on / off 가능)
 - 웹 페이지의 다크 모드/ 라이트 모드 설정이 가능합니다.
+- 반응형 웹 페이지
+  <br/><br/>
 
-  
+## stack
+
+#### Environment
+<div align=center>
+  <img src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white">   
+  <img src="https://img.shields.io/badge/git-F05032?style=plastic&logo=git&logoColor=white">   
+  <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=plastic&logo=visualstudiocode&logoColor=white">   
+</div>
+
+#### Development
+<div align=center>
+  <img src="https://img.shields.io/badge/nextjs-181717?style=plastic&logo=nextdotjs&logoColor=white"> 
+  <img src="https://img.shields.io/badge/reactjs-61DAFB?style=plastic&logo=react&logoColor=black"> 
+  <img src="https://img.shields.io/badge/zustand-007396?style=plastic&logo=zustand&logoColor=white">   
+    <img src="https://img.shields.io/badge/tailwind css-06B6D4?style=plastic&logo=tailwindcss&logoColor=white">  
+    <img src="https://img.shields.io/badge/javascript-F7DF1E?style=plastic&logo=javascript&logoColor=white">  
+    <img src="https://img.shields.io/badge/html-E34F26?style=plastic&logo=html5&logoColor=white">  
+    <img src="https://img.shields.io/badge/css-1572B6?style=plastic&logo=css3&logoColor=white">  
+</div>
+
+#### Deploy
+<div align=center>
+  <img src="https://img.shields.io/badge/vercel-000000?style=plastic&logo=vercel&logoColor=white">   
+  </div>
+
+   <br/> <br/>
+
+
