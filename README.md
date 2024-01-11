@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 비우는 시간
 
-## Getting Started
+<div align="center">
+<img src="https://github.com/kr-JSW/meditationTimer/assets/150055151/5c018369-4099-4903-9eb1-feaee41961a6" alt="logo" width='500px' height='500px'/>
+</div>
 
-First, run the development server:
+### 온라인 명상 타이머
+[DEMO](serenitytimer.vercel.app/)
+---
+## 프로젝트 소개
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+pc와 mobile환경에서 간단하게 사용 할 수 있는, 온라인 명상 타이머입니다. <br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+사실 이미 온라인에는 다양한 명상 타이머가 있습니다. 하지만 대부분의 사이트들이 명상 시간만 측정하는것을 목표로 하고 있습니다.<br/>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+실질적으로 명상 수행을 하시는 분들을 살펴보면, 단순하게 마음을 비우기만 하는것이 아니라, 기법으로서 호흡의 길이를 측정하기도 합니다. <br/>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+이때는 내적으로 숫자를 세기보다는 외부에서 시간이 흐르고 있다는 객관적인 신호를 전달하는것이 더 정확합니다. <br/>
 
-## Learn More
+의외로 기존의 온라인 타이머에서는 이런 초시계 소리 기능이 없다는것을 알게되었습니다. <br/>
 
-To learn more about Next.js, take a look at the following resources:
+굳이 찾는다면, 앱스토어에서 광고를 보고 이용 가능한 명상 타이머 정도가 전부였습니다. <br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+이런 불편함을 조금이나마 해결하기 위해 초시계 소리 기능을 추가하여 제작하게 되었습니다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br/><br/><br/>
 
-## Deploy on Vercel
+## 세부기능
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 30초 단위로 시간 설정이 가능합니다.(최대 2시간)
+- 1초 간격으로 초시계 소리가 나옵니다.(on / off 가능)
+- 웹 페이지의 다크 모드/ 라이트 모드 설정이 가능합니다.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  
