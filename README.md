@@ -5,7 +5,7 @@
 </div>
 
 ### 온라인 명상 타이머
-[DEMO](serenitytimer.vercel.app/)
+[DEMO](https://serenitytimer.vercel.app/)
 ---
 ## 프로젝트 소개
 
